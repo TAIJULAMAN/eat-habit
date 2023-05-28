@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:cursive;
+}
+h1{
+    font-size: 55px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+h1 span{
+    color: orangered;
+}
+p{
+    color: black;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.half{
+    
+    float:none;
+    padding-left: 10px;
+    width:50%;
+}
+.half img{
+    width: 85%;   
+}
+.button{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    color: whitesmoke;
+    padding: 10px 40px;
+    margin:10px;
+    border-radius: 15px;
+    font-weight: 700; 
+}
+.flexible-container{
+    
+    display: flex;   
+}
+.aman{
+    margin-left: 200px;
+    margin-top: 100px;
+   
+}
+.top-banner{
+    background-repeat: no-repeat;
+    border: 2px solid red;
+    background-image: url("shapes/Frame\ 58.jpg");
+    height: 550px;
+}
+.female-pic{
+    width: 50%;
+}
+.middle-banner{
+    background-repeat: no-repeat;
+    border: 2px solid red;
+    background-image: url("shapes/Frame\ 56.jpg");
+    height: 550px;
+}
+.middle-banner img{
+    width: 50%;
+    margin-left: 150px;
+    margin-top: 104px;
+}
+.last-banner{
+    background-image: url("shapes/Frame\ 58.jpg");
+    border: 2px solid red;
+}
+.last-banner-first{
+   text-align: center;
+   margin-left: 200px;
+   margin-right: 200px;
+}
+.food-part{
+border: 5px solid blue;
+box-shadow: 10px 10px 10px green;
+border-radius: 15px;
+
+padding:10px 10px;
+width:30%;
+margin:10px 10px;
+
+}  
+.food-part img{
+    width: 90%;
+    padding: 10px 10px;
+    border-radius: 5px solid;
+}
+.sodium{
+    justify-content: center;
+    gap: 30px;
+    align-content: space-around;
+}
+footer {
+    background-color:whitesmoke;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card{   
+    width: 50%;
+   
+    border-radius: 100px;
+    border:5px silid black;
+    margin-left: 100px;
+   padding: auto;
+  
+    
+}
